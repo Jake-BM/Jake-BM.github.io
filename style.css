@@ -10,11 +10,33 @@ img {
 }
 
 .video {
-  margin-top: 25px
+  margin-top: 25px;
+  margin-bottom: auto;
 }
 
 h1 {
   font-size: 15pt;
   text-align: center;
-  font-family: 'Montserrat light';
+  font-family: 'Montserrat thin';
+}
+
+.myButton {
+	background-color:#00bdb0;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat thin';
+  text-decoration: none;
+	font-size:20px;
+	padding:20px 52px;
+
+}
+.myButton:hover {
+	background-color:#1a5d63;
+  transition-duration: .25s;
+}
+.myButton:active {
+	transform: scale(.98);
+  transition-duration: .1s;
 }
