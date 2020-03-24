@@ -6,6 +6,7 @@ img {
 .box {
   width: 250px;
   margin: auto;
+  padding-top: 30px;
 }
 
 .video {
